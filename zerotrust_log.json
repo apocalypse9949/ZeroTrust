@@ -1,0 +1,61 @@
+{"timestamp":"2025-06-17 19:08:35","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:08:46","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:09:27","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:09:45","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:17:33","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:17:33","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:24:07","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:24:41","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:25:47","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:25:47","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:26:02","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:44:04","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:44:04","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 19:44:26","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 19:44:26","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:00:27","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 21:00:27","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:07:31","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 21:07:31","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:08:27","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 21:08:27","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:10:33","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 21:10:33","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:11:05","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.100","source":"stub"}
+{"timestamp":"2025-06-17 21:11:05","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-17 21:11:55","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-18 11:10:43","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-18 11:36:24","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-18 11:36:43","event_type":"TEST","description":"Test log entry"}
+test
+{"timestamp":"2025-06-18 11:49:17","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.200","source":"demo"}
+{"timestamp":"2025-06-18 11:49:17","event_type":"TRUST_IP","description":"Added trusted IP: 172.16.0.10","source":"demo"}
+{"timestamp":"2025-06-18 11:49:18","event_type":"BLOCK_IP","description":"Blocked IP: 198.51.100.123","source":"demo"}
+{"timestamp":"2025-06-18 11:49:18","event_type":"BLOCK_IP","description":"Blocked IP: 203.0.113.100","source":"demo"}
+{"timestamp":"2025-06-18 11:49:23","event_type":"SECURITY_ALERT","description":"Suspicious activity from 203.0.113.200","source":"demo"}
+{"timestamp":"2025-06-18 11:49:24","event_type":"BLOCK_IP","description":"Blocked IP: 203.0.113.200","source":"demo"}
+{"timestamp":"2025-06-18 11:49:24","event_type":"AUTO_BLOCK","description":"Automatically blocked 203.0.113.200","source":"demo"}
+{"timestamp":"2025-06-18 11:49:25","event_type":"ACCESS_DENIED","description":"Blocked access attempt from 203.0.113.200","source":"demo"}
+{"timestamp":"2025-06-18 11:50:58","event_type":"SECURITY_ALERT","description":"Suspicious activity detected from 203.0.113.100","source":"simulation"}
+{"timestamp":"2025-06-18 11:51:00","event_type":"BLOCK_IP","description":"Blocked IP: 203.0.113.100","source":"simulation"}
+{"timestamp":"2025-06-18 11:51:02","event_type":"SECURITY_ALERT","description":"Blocked access attempt from 203.0.113.100","source":"simulation"}
+{"timestamp":"2025-06-18 11:51:04","event_type":"TRUST_IP","description":"Added trusted IP: 192.168.1.200","source":"simulation"}
+{"timestamp":"2025-06-18 11:51:06","event_type":"NETWORK_TRAFFIC","description":"Trusted access from 192.168.1.200","source":"simulation"}
+{"timestamp":"2025-06-18 11:51:50","event_type":"SECURITY_ALERT","description":"Suspicious activity from 203.0.113.200","source":"test"}
+{"timestamp":"2025-06-18 11:51:50","event_type":"AUTO_BLOCK","description":"Automatically blocked 203.0.113.200","source":"test"}

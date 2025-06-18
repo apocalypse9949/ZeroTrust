@@ -1,0 +1,5 @@
+LIBRARY zerotrust
+EXPORTS
+    start_monitoring
+    add_trusted_ip
+    block_untrusted_ip 

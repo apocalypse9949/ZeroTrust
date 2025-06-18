@@ -1,0 +1,27 @@
+{
+  "network": {
+    "interface": "eth0",
+    "promiscuous_mode": true,
+    "timeout_ms": 1000
+  },
+  "security": {
+    "max_known_ips": 100,
+    "auto_block_unknown": true,
+    "log_level": "INFO"
+  },
+  "trusted_ips": [
+    "127.0.0.1",
+    "192.168.1.1"
+  ],
+  "blocked_ips": [],
+  "logging": {
+    "log_file": "zerotrust_log.json",
+    "max_log_size_mb": 100,
+    "rotate_logs": true
+  },
+  "web_ui": {
+    "port": 4567,
+    "bind_address": "0.0.0.0",
+    "auto_refresh_seconds": 5
+  }
+} 
